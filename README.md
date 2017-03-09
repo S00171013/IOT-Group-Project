@@ -1,9 +1,12 @@
 #IoT Project 1 - Deliverables
 
-Student Name: William McLaughlin, Jack Gilmartin, David Brennan
-Course: Games Development Level 7 Group A
-Student ID Number: S00168764, S00171013, S00172994
-Project Title:  Kinect Sensor XYZ
+**Student Name:** William McLaughlin, Jack Gilmartin, David Brennan
+
+**Course:** Games Development Level 7 Group A
+
+**Student ID Number:** S00168764, S00171013, S00172994
+
+**Project Title:** Kinect Sensor XYZ
 
 ##Background / Introduction
 
@@ -49,9 +52,10 @@ For this project, we intend to be able to read the layout of a room using an Xbo
 
 We will first need to learn how to use the Kinect Development Kit (SDK) in order to utilise the Kinect’s built in IR sensor. Once we know how to operate the Kinect, we will learn how to read information from the Kinect and send it to a Windows Form Application using C#. This program will have to be able to read in the data from the Kinect and convert it into real world measurements if necessary. The data collected will then have to be sent to the arduino via USB where it can be sent to a Google spreadsheet. From there the user can take the data as is or read it into another program for a variety of purposes.
 
-###Step 1: Research
-The bulk of our research will be on how the Kinect works and how we can program it to communicate to the Arduino, this is the primary challenge of our project. We will be searching the web, reading articles and watching tutorials to help our project come into fruition. We will 
+##Step 1: Research
+The bulk of our research will be on how the Kinect works and how we can program it to communicate to the Arduino, this is the primary challenge of our project. We will be searching the web, reading articles and watching tutorials to help our project come into fruition. We will also be doing some more research on how the Arduino works and what we can achieve with it.
 
-###Step 2: Implementation
+##Step 2: Implementation
+After we have finished our research, we will start to work on the software itself. This is likely to be the most challenging part of our project work. We will be making use of a Windows Form Application in C#, the Arduino IDE and the Kinect SDK in order to achieve our goal. If we can find a way to have these devices communicate with one another, our project is as good as done, since by then, all we will need to implement will be the necessary calculations to find the area of the room the XYZ device is placed in.
 
-###Step 3: Testing
+##Step 3: Testing
