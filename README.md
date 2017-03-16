@@ -1,4 +1,4 @@
-# IoT Project 1 - Deliverables
+# IoT Project XOF Squad
 
 **Student Name:** William McLaughlin, Jack Gilmartin, David Brennan
 
