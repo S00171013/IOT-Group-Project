@@ -11,7 +11,7 @@ SimpleOpenNI kinect;
 
 void setup() 
 {
-  size(1280,960); // Sets the windows size
+  size(1280,480); // Sets the windows size
   kinect = new SimpleOpenNI(this);
   // Enable depthMap and RGB Image...
   kinect.enableDepth();

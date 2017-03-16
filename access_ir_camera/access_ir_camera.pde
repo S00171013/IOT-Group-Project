@@ -11,11 +11,11 @@ SimpleOpenNI kinect;
 
 void setup() 
 {
-  size(1280,960); // Sets the windows size
+  size(1280,480); // Sets the windows size
   kinect = new SimpleOpenNI(this);
   // Enable depthMap and IR Image...
   kinect.enableDepth();
-  kinect.enableIR();
+  kinect.enableIR(1,1,1);
   // Enable mirror
   kinect.setMirror(true);
 }

@@ -5,6 +5,7 @@
 
 int val, xVal;
 // int yVal;
+int piezoPin = 2;
 
 void setup()
 {
@@ -15,10 +16,24 @@ void setup()
 
 void loop()
 {
-  analogWrite(A1, 0);
-  // Check if enough data has been sent from computer
-  
-  
+  if (Serial.available())
+  {
+    val = Serial.read(); // Incoming value
+    // If the value is the event trigger character 'S'
+    if (val == 'S')
+    {
+      xVal = 255;
+      // Add more values for more LED's
+      // yVal = x;
+      tone(piezoPin, 1000, 500); // Play tune
+    }
+    else
+    {
+      xVal = 0;
+    }
+    analogWrite(A1, xVal); // Send this value to the LED !
+    //analogWrite(PIN, yVal);
+  }
 }
 
 /*********************************************************************************************************
