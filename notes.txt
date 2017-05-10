@@ -1,3 +1,9 @@
 Positioning Your Kinect
 The Kinect's practical range goes from 1.2m to 3.5m. If the objects stand too close to the sensor, they will not be scanned and will just appear as black spots; if they are too far, the scanning precision will be too low, making them appear as flat objects. If you are using Kinect for Windows device, the range of the camera is shorter from 40cm to 3m.
 There are only 3 gestures that can be used, GESTURE_CLICK, GESTURE_HAND_RAISE, GESTURE_WAVE.
+
+NodeJS is a server-side engine for javaScript, it allows you to write web servers in JavaScript.
+
+Node Libraries:
+express.js, a library that simplifies writing nice RESTful web servers in node.
+socket.io and node-serialport allows you to read to and write from WebSockets using node.
